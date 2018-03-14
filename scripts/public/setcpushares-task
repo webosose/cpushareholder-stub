@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# usage: $0 [-p pid] [-t taskname] [cmd args...]
+
+# Used to set groups for command-line invocations of programs, either existing or newly launched.
+
+if [ "$1" = "-p" ] ; then
+	shift
+	pid=$1
+	shift
+else
+	pid=$$
+fi
+
+if [ "$1" = "-t" ] ; then
+	shift
+	shift
+fi
+
+exec "$@"

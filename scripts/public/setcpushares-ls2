@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# usage: $0 cmd args...
+# Used by LS2 as a wrapper for invoking dynamic services that ensures they are in the correct groups
+
+exec "$@"

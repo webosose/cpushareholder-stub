@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# usage: $0
+# Used by upstart as a preparation for invoking jobs, which ensures that they are in the correct groups
