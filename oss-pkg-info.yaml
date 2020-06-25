@@ -1,4 +1,4 @@
 Open Source Software Package:
-- name: webOSOSE-cpushareholder-stub
-  source: https://github.com/webosose/cpushareholder-stub
+- name: webOSOSE
+  source: https://github.com/webosose
   license: Apache-2.0
